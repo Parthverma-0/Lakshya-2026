@@ -74,7 +74,7 @@ function About() {
           <div className="relative h-[300px] md:h-[400px] w-full overflow-hidden rounded-xl border-2 border-red-600 shadow-[0_0_30px_rgba(220,38,38,0.5)] group hover:shadow-[0_0_50px_rgba(220,38,38,0.8)] transition-all duration-500">
             <img
               src="/poster.png"
-              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+              className="w-full h-full group-hover:scale-110 transition-transform duration-700 ease-out"
               alt="About Background"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-red-900/40 to-transparent pointer-events-none" />
