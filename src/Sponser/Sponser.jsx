@@ -6,13 +6,13 @@ const sponsors = [
     image: "/quick-smart-wash.png",
     description:
       "Established in 2013, Quick Smart Wash Private Limited (QSW) revolutionized the laundry industry in India with its professional linen management and laundry services. Operating from Jaipur, Rajasthan, QSW introduced the concept of 'Campus Laundromats' nationwide, offering eco-friendly cleaning through smart card–driven laundries and state-of-the-art technology.",
-    badge: "Title Sponser",
+    badge: "Title Sponsor",
   },
   {
     image: "/LEO1.jpeg",
     description:
       "LEO1 is an innovative digital platform transforming education fee management through secure, cashless, and transparent payment solutions. Designed for modern institutions and students, LEO1 streamlines financial workflows while ensuring reliability, compliance, and ease of use across the education ecosystem.",
-    badge: "Associate Sponser",
+    badge: "Associate Sponsor",
   },
 ];
 
