@@ -30,7 +30,7 @@ function Sponser() {
     <section
       className="relative z-20 min-h-screen flex flex-col items-center justify-center 
                  px-4 py-20 md:py-24 mt-20 md:mt-0"
-      id="sponser"
+      id="sponsor"
     >
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-10 md:mb-12 text-center px-4">
         Our <span className="text-red-500">Sponsors</span>
