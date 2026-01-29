@@ -29,7 +29,7 @@ function OurTeam() {
   ];
 
   return (
-    <section className="relative py-24 bg-transparent overflow-hidden" id="team">
+    <section className="relative py-24 bg-transparent overflow-hidden z-10" id="team">
       {/* Hard width clamp */}
       <div className="mx-auto max-w-6xl px-4">
 
