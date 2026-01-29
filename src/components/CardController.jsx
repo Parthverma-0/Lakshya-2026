@@ -27,10 +27,12 @@ export default function CardController() {
   }
 
   return (
-    <div className="w-full py-12 px-6 flex justify-center items-center gap-12 lg:gap-40">
-      {artists.map((artist, index) => (
-        <StaticCard key={artist.id} artist={artist} index={index} />
-      ))}
+    <div className="w-full py-12 px-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-[1600px] mx-auto">
+        {artists.map((artist, index) => (
+          <StaticCard key={artist.id} artist={artist} index={index} />
+        ))}
+      </div>
     </div>
   );
 }
@@ -62,7 +64,7 @@ export function MobileCards() {
 
 function StaticCard({ artist }) {
   return (
-    <div className="w-[250px] h-[350px] flex-shrink-0">
+    <div className="w-[250px] h-[350px]">
       <TiltedCard
         imageSrc={artist.img}
         altText={artist.name}
