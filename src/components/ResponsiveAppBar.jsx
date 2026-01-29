@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 const pages = [
   { name: "Timeline", sectionId: "timeline" },
   { name: "Events", sectionId: "events" },
-  { name: "Sponsor", sectionId: "sponser" },
+  { name: "Sponsor", sectionId: "sponsor" },
   { name: "Gallery", sectionId: "gallery" },
   { name: "Our Team", sectionId: "team" },
 ];
